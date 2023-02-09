@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: "Museo Sans Cyrl";
+}
+
+body {
+  margin: 0px;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  padding: 40px 250px 20px 250px;
+  font-size: 20px;
+}
+#navbar a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+#navbar a:hover {
+  color: black;
+}
+
+.nav-left {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav {
+  margin-right: 29px;
+}
+
+.line {
+  max-width: 100%;
+  height: 1px;
+  background: black;
+  margin: 85px 250px 0px 250px;
+}/*# sourceMappingURL=style.css.map */
